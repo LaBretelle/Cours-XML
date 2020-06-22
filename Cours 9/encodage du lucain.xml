@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Pharsalia</title>
+            <title xml:lang="fra">La Pharsale</title>
+            <author>Lucain</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Les Belles Lettres</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V">Vossianus XIX q. 51 suee. x.</witness>
+               <witness xml:id="M">Montepessulanus H 113 sace. Ix aut x.</witness>
+               <witness xml:id="Z">Epternacensis sive Parisinus bibl. nat. lat. 10.314 sace.
+                  x.</witness>
+               <witness xml:id="P">Colbertinus siue Parisinus bibl. nat. lat. 7502 saec.
+                  x.</witness>
+               <witness xml:id="U">Vossianus alter XIX f. 63 sace. x.</witness>
+               <witness xml:id="G">Gemblacensis siue Bruxcllcnsis bibl. Burgundicae 5330 sace. x aut
+                  xr.</witness>
+               <witness xml:id="Ω">consensus codicum VMZPUG.</witness>
+               <witness xml:id="S">Sangermanensis siue Parisinus bibl. nat. lat. 13045 sace.
+                  x.</witness>
+               <witness xml:id="Q">Puteanus siue Parisinus bibl. nat. 7900 A saec. x.</witness>
+               <witness xml:id="C">Lemmata codicis Bernensis 370 saec x. [Ca prius lemma ; Cb
+                  alterum lemma eiusdem loci, eum discrepant.</witness>
+               <witness xml:id="&#957;">Fragmenta inter Vindobonensem (lat. rec. 85) et Neapolitanum
+                  (IV a 8) codices rescriptos diuisa, saec. V(?).</witness>
+               <witness xml:id="&#956;">Fragmenta codicis rcscripti Palatini 24 sace. IV
+                  (?).</witness>
+               <witness xml:id="&#955;">Fragmenta codicis Parisini 10.403 saec. IX.</witness>
+               <witness xml:id="F">Vaticanus 3284 saec. XI.</witness>
+               <witness xml:id="L"> Laurentianus Sanctae Crucis plut. XXIV sin. cod. 3 saec.
+                  XI.</witness>
+               <witness xml:id="A">Ashburnhamensis siue Parisinus bibl. nat. lat. nouv. acq. 1.626
+                  saec. XI.</witness>
+               <witness xml:id="B">Bernensis 45 saec. XI.</witness>
+               <witness xml:id="E">Erlangensis 304 saec. x</witness>
+               <witness xml:id="N">Nostradamensis siue Parisinus bibl. nat. lat. 17901 saec.
+                  XI.</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <l>lam gelidas Caesar cursu superauerat Alpes</l>
+         <l>ingentisque animo motus bellumque futurum</l>
+         <l><app>
+            <lem>ceperat</lem>
+               <rdg wit="#S">coeperat</rdg>
+            </app>. Ut uentum. est parui Rubiconis ad <app>
+               <lem>undas</lem>
+               <rdg wit="#Z">endas</rdg>
+               <rdg wit="#U">undam</rdg>
+            </app>,</l>
+         <l n="186">ingens uisa duci Patriae trepidantis imago </l>
+         <l>clara per obscuram uoltu maestissima noctem,</l>
+         <l> turrigero canos effundens uertice crines,</l>
+         <l>caesarie lacera nudisque adstare lacertis</l>
+         <l>et gemitu permixta loqui : « Quo tenditis <app>
+               <lem>ultra</lem>
+               <rdg wit="#P">ultro</rdg>
+               <rdg wit="#M">vel inquit</rdg>
+            </app> ?</l>
+         <l n="191">quo fertis mea signa, <app>
+            <lem>uiri</lem>
+               <rdg wit="#Z">veri</rdg>
+            </app>? Si iure uenitis</l>
+         <l>si ciues, huc usque licet. »<app>
+            <lem wit="#Z #U"> Tunc</lem>
+               <rdg>tum</rdg>
+            </app> perculit horror</l>
+         <l>membra ducis, riguere comae,<app>
+            <lem>gressumque</lem>
+               <rdg wit="#S">gressusque</rdg>
+            </app> cohercens</l>
+         <l>languor in extrema tenuit uestigia ripa,</l>
+         <l n="195">Mox <app>
+               <lem>ait</lem>
+               <rdg wit="#Z">agit</rdg>
+            </app>: « O magnae qui moenia prospicis Vrbis</l>
+         <l>Tarpeia de rupe, Tonans, Phrygiique penates</l>
+         <l>Gentis <app>
+            <lem>Iuleae</lem>
+               <rdg wit="#M #Q">Juliae</rdg>
+            </app> et rapti secreta Quirini</l>
+         <l>et residens celsa<app>
+            <lem wit="#Z #P"> Latiaris</lem>
+               <rdg wit="#Z">latianis</rdg>
+               <rdg>latialis</rdg>
+            </app> Iuppiter<app>
+               <lem>Alba</lem>
+               <rdg>Alua</rdg>
+            </app></l>
+         <l>Vestalesque foci summique o numinis instar,</l>
+         <l n="200">Roma, faue coeptis; nJ>n te furialibus armis</l>
+         <l>persequor ; en adsum, uictor <app>
+               <lem>terraque</lem>
+               <rdg>terraeque</rdg>
+            </app> marique,</l>
+         <l>Caesar, ubique tuus (liceat modo, nunc quoque), miles,</l>
+         <l>Ille erit, ille nocens, qui me tibi fecerit hostem. »</l>
+         <l>Inde moras soluit belli tumidumque per amnem</l>
+         <l n="205">signat tulit propere ; <app>
+            <lem>sicut </lem>
+               <rdg wit="#M #U">sic</rdg>
+            </app> squalentibus aruis</l>
+      </body>
+   </text>
+</TEI>

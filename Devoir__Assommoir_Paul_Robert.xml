@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'assommoir</title>
+            <author>Émile Zola</author>
+            <sponsor><forename>Ariane</forename>
+               <name>Pinche</name>,<affiliation>professeur à <orgName>l'École Nationale des
+                     Chartes</orgName></affiliation></sponsor>
+            <principal/>
+            <respStmt>
+               <resp>Encodage réalisé pour un devoir d'XML TEI</resp>
+               <persName><forename>Paul</forename><name>Robert</name></persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Éditions Charpentier</publisher>
+            <date when="1879">1879</date>
+            <pubPlace><address>
+                  <placeName>13, rue de Grenelle-Saint-Germain à<geogName>
+                     Paris.</geogName></placeName>
+               </address></pubPlace>
+            <distributor facs="https://fr.wikisource.org/wiki/L%E2%80%99Assommoir/Chapitre_III"
+               >Wikisource</distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">Licence
+                  Creative Commons Attribution-partage dans les mêmes conditions</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title type="main">L'assommoir</title><title type="subtitle">Les
+                  Rougon-Macquart</title><author><forename>Émile</forename><surname><name>Zola</name></surname></author><date
+                  when="1879">1879</date><publisher>Éditions Charpentier</publisher><note>Oeuvre
+                  éditée pour la première fois en 1877 aux éditions Charpentier</note><distributor
+                  facs="https://fr.wikisource.org/wiki/L%E2%80%99Assommoir/Chapitre_III"
+                  >Wikisource</distributor>
+               <biblScope unit="chapter" n="3"/>
+               <biblScope unit="page" from="78" to="79">pp.78-79</biblScope></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <settingDesc>
+            <listPlace>
+               <place>
+                  <placeName xml:id="Moulin-d-argent">Moulin-d'Argent</placeName>
+                  <location>
+                     <placeName xml:id="boulevard_de_la_Chapelle">boulevard de la
+                        Chapelle</placeName>
+                  </location>
+               </place>
+               <place>
+                  <location>
+                     <placeName xml:id="rue_de_la_Goutte-dor">rue de la Goutte d'or</placeName>
+                  </location>
+               </place>
+               <place>
+                  <location>
+                     <placeName xml:id="rue_Myrrha">rue Myrrha</placeName>
+                  </location>
+               </place>
+               <place>
+                  <location>
+                     <placeName xml:id="rue_du_faubourg_Poissonnière">rue du faubourg
+                        Poissonnière</placeName>
+                  </location>
+               </place>
+               <place>
+                  <location>
+                     <district xml:id="la_plaine_saint_denis">La plaine Saint Denis</district>
+                  </location>
+               </place>
+            </listPlace>
+         </settingDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="Gervaise_Macquart">
+                  <persName>Gervaise Macquart</persName>
+                  <event>
+                     <p>Se marie avec Coupeau au début du Chapitre III.</p>
+                  </event>
+               </person>
+               <person xml:id="Coupeau">
+                  <persName>Coupeau</persName>
+                  <event>
+                     <p>Se marie avec Gervaise Macquart au début du Chapitre III.</p>
+                  </event>
+               </person>
+               <person>
+                  <persName xml:id="Auguste">Auguste</persName>
+                  <occupation>marchand de vin</occupation>
+               </person>
+               <person>
+                  <persName xml:id="Madinier">Monsieur Madinier</persName>
+               </person>
+               <person>
+                  <persName xml:id="Remanjou">Mademoiselle Remanjou</persName>
+               </person>
+               <person>
+                  <persName xml:id="mme_Gaudron">Madame Gaudron</persName>
+               </person>
+               <person>
+                  <persName xml:id="Bibi-la-Grillade">Bibi-la-Grillade</persName>
+               </person>
+               <person>
+                  <persName xml:id="Mes-Bottes">Mes-Bottes</persName>
+               </person>
+               <person>
+                  <persName xml:id="madame_Fauconnier">Madame Fauconnier</persName>
+               </person>
+               <person>
+                  <persName xml:id="couple_Boche">Monsieur et Madame Boche</persName>
+               </person>
+               <person>
+                  <persName xml:id="Claude_Lantier">Claude Lantier</persName>
+                  <trait>
+                     <p>Fille aînée de Gervaise Macquart et Auguste Lantier.</p>
+                  </trait>
+               </person>
+               <person>
+                  <persName xml:id="Étienne_Lantier">Étienne Lantier</persName>
+                  <trait>
+                     <p>Fils de Gervaise Macquart et Auguste Lantier.</p>
+                  </trait>
+               </person>
+               <person>
+                  <persName xml:id="Monsieur_Lorilleux">Monsieur Lorilleux</persName>
+               </person>
+               <person>
+                  <persName xml:id="Monsieur_Boche">Monsieur Boche</persName>
+               </person>
+               <person>
+                  <persName xml:id="Madame_Boche">Madame Boche</persName>
+               </person>
+               <person>
+                  <persName xml:id="maman_Coupeau">Maman Coupeau</persName>
+                  <trait>
+                     <p>Mère de Coupeau.</p>
+                  </trait>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="3">
+            <head n="3">III</head>
+            <p><persName ref="#Gervaise_Macquart">Gervaise</persName> ne voulait pas de noce. À quoi
+               bon dépenser de l’argent ? Puis, elle restait un peu honteuse ; il lui semblait
+               inutile d’étaler le mariage devant tout le quartier. Mais <persName ref="#Coupeau"
+                  >Coupeau</persName> se récriait : on ne pouvait pas se marier comme ça, sans
+               manger un morceau ensemble. Lui, se battait joliment l’œil du quartier ! Oh ! quelque
+               chose de tout simple, un petit tour de balade l’après-midi, en attendant d’aller
+               tordre le cou à un lapin, au premier gargot venu. Et pas de musique au dessert, bien
+               sûr, pas de clarinette pour secouer le panier aux crottes des dames. Histoire de
+               trinquer seulement, avant de revenir faire dodo chacun chez soi.</p>
+            <p>Le zingueur, plaisantant, rigolant, décida la jeune femme, lorsqu’il lui eut juré
+               qu’on ne s’amuserait pas. Il aurait l’œil sur les verres, pour empêcher les coups de
+               soleil. Alors, il organisa un pique-nique à cent sous par tête, chez <persName
+                  ref="#Auguste">Auguste</persName>, au <placeName ref="#Moulin-d-argent"
+                  >Moulin-d’Argent</placeName>, <placeName ref="#boulevard_de_la_Chapelle">boulevard
+                  de la Chapelle</placeName>. C’était un petit marchand de vin dans les prix doux,
+               qui avait un bastringue au fond de son arrière-boutique, sous les trois acacias de sa
+               cour. Au premier, on serait parfaitement bien. Pendant dix jours, il racola des
+               convives, dans la maison de sa sœur, <placeName ref="#rue_de_la_Goutte-dor">rue de la
+                  Goutte-d’Or</placeName> : <persName ref="#Madinier">M. Madinier</persName>,
+                  <persName ref="#Remanjou">mademoiselle Remanjou</persName>, <persName
+                  ref="#mme_Gaudron">madame Gaudron</persName> et son mari. Il finit même par faire
+               accepter à <persName ref="#Gervaise_Macquart">Gervaise</persName> deux camarades,
+                  <persName ref="#Bibi-la-Grillade">Bibi-la-Grillade</persName> et <persName
+                  ref="#Mes-Bottes">Mes-Bottes</persName> : sans doute <persName ref="#Mes-Bottes"
+                  >Mes-Bottes</persName> levait le coude, mais il avait un appétit si farce, qu’on
+               l’invitait toujours dans les pique-nique, à cause de la tête du marchand de soupe en
+               voyant ce sacré trou-là avaler ses douze livres de pain. La jeune femme, de son côté,
+               promit d’amener sa patronne, <persName ref="#madame_Fauconnier">madame
+                  Fauconnier</persName>, et <persName ref="#couple_Boche">les Boche</persName>, de
+               très braves gens. Tout compte fait, on se trouverait quinze à table. C’était assez.
+               Quand on est trop de monde, ça se termine toujours par des disputes.</p>
+            <p>Cependant, <persName ref="#Coupeau">Coupeau</persName> n’avait pas le sou. Sans
+               chercher à crâner, il entendait agir en homme propre. Il emprunta cinquante francs à
+               son patron. Là-dessus, il acheta d’abord l’alliance, une alliance d’or de douze
+               francs, que <persName ref="#Monsieur_Lorilleux">Lorilleux</persName> lui procura en
+               fabrique pour neuf francs. Il se commanda ensuite une redingote, un pantalon et un
+               gilet, chez un tailleur de la <placeName ref="#rue_Myrrha">rue Myrrha</placeName>,
+               auquel il donna seulement un acompte de vingt-cinq francs ; ses souliers vernis et
+               son bolivar pouvaient encore marcher. Quand il eut mis de côté les dix francs du
+               pique-nique, son écot et celui de <persName ref="#Gervaise_Macquart"
+                  >Gervaise</persName>, les enfants devant passer par-dessus le marché, il lui resta
+               tout juste six francs, le prix d’une messe à l’autel des pauvres. Certes, il n’aimait
+               pas les corbeaux, ça lui crevait le cœur de porter ses six francs à ces galfatres-là,
+               qui n’en avaient pas besoin pour se tenir le gosier frais. Mais un mariage sans
+               messe, on avait beau dire, ce n’était pas un mariage. Il alla lui-même à l’église
+               marchander ; et, pendant une heure, il s’attrapa avec un vieux petit prêtre, en
+               soutane sale, voleur comme une fruitière. Il avait envie de lui ficher des calottes.
+               Puis, par blague, il lui demanda s’il ne trouverait pas, dans sa boutique, une messe
+               d’occasion, point trop détériorée, et dont un couple bon enfant ferait encore son
+               beurre. Le vieux petit prêtre, tout en grognant que Dieu n’aurait aucun plaisir à
+               bénir son union, finit par lui laisser sa messe à cinq francs. C’était toujours vingt
+               sous d’économie. Il lui restait vingt sous.</p>
+            <p><persName ref="#Gervaise_Macquart">Gervaise</persName>, elle aussi, tenait à être
+               propre. Dès que le mariage fut décidé, elle s’arrangea, fit des heures en plus, le
+               soir, arriva à mettre trente francs de côté. Elle avait une grosse envie d’un petit
+               mantelet de soie, affiché treize francs, <placeName
+                  ref="#rue_du_faubourg_Poissonnière">rue du Faubourg-Poissonnière</placeName>. Elle
+               se le paya, puis racheta pour dix francs au mari d’une blanchisseuse, morte dans la
+               maison de <persName ref="#madame_Fauconnier">madame Fauconnier</persName>, une robe
+               de laine gros bleu, qu’elle refit complètement à sa taille. Avec les sept francs qui
+               restaient, elle eut une paire de gants de coton, une rose pour son bonnet et des
+               souliers pour son aîné <persName ref="#Claude_Lantier">Claude</persName>.
+               Heureusement les petits avaient des blouses possibles. Elle passa quatre nuits,
+               nettoyant tout, visitant jusqu’aux plus petits trous de ses bas et de sa chemise.</p>
+            <p>Enfin, le vendredi soir, la veille du grand jour, <persName ref="#Gervaise_Macquart"
+                  >Gervaise</persName> et <persName ref="#Coupeau">Coupeau</persName>, en rentrant
+               du travail, eurent encore à trimer jusqu’à onze heures. Puis, avant de se coucher
+               chacun chez soi, ils passèrent une heure ensemble, dans la chambre de la jeune femme,
+               bien contents d’être au bout de cet embarras. Malgré leur résolution de ne pas se
+               casser les côtes pour le quartier, ils avaient fini par prendre les choses à cœur et
+               par s’éreinter. Quand ils se dirent bonsoir, ils dormaient debout. Mais, tout de
+               même, ils poussaient un gros soupir de soulagement. Maintenant, c’était réglé.
+                  <persName ref="#Coupeau">Coupeau</persName> avait pour témoins <persName
+                  ref="#Madinier">M. Madinier</persName> et <persName ref="#Bibi-la-Grillade"
+                  >Bibi-la-Grillade</persName> ; <persName ref="#Gervaise_Macquart"
+                  >Gervaise</persName> comptait sur <persName ref="#Monsieur_Lorilleux"
+                  >Lorilleux</persName> et sur <persName ref="#Monsieur_Boche">Boche</persName>. On
+               devait aller tranquillement à la mairie et à l’église, tous les six, sans traîner
+               derrière soi une queue de monde. Les deux sœurs du marié avaient même déclaré
+               qu’elles resteraient chez elles, leur présence n’étant pas nécessaire. Seule
+                  <persName ref="#maman_Coupeau">maman Coupeau</persName> s’était mise à pleurer, en
+               disant qu’elle partirait plutôt en avant, pour se cacher dans un coin ; et on avait
+               promis de l’emmener. Quant au rendez-vous de toute la société, il était fixé à une
+               heure, au <placeName ref="#Moulin-d-argent">Moulin-d’Argent</placeName>. De là on
+               irait gagner la faim dans <placeName ref="#la_plaine_saint_denis">la plaine
+                  Saint-Denis</placeName> ; on prendrait le chemin de fer et on retournerait à
+               pattes, le long de la grande route. La partie s’annonçait très bien, pas une bosse à
+               tout avaler, mais un brin de rigolade, quelque chose de gentil et d’honnête.</p>
+            <p>Le samedi matin, en s’habillant, <persName ref="#Coupeau">Coupeau</persName> fut pris
+               d’inquiétude, devant sa pièce de vingt sous. Il venait de songer que, par politesse,
+               il lui faudrait offrir un verre de vin et une tranche de jambon aux témoins, en
+               attendant le dîner. Puis, il y aurait peut-être des frais imprévus. Décidément, vingt
+               sous, ça ne suffisait pas. Alors, après s’être chargé de conduire <persName
+                  ref="#Claude_Lantier">Claude</persName> et <persName ref="#Étienne_Lantier"
+                  >Étienne</persName> chez <persName ref="#Madame_Boche">madame Boche</persName>,
+               qui devait les amener le soir au dîner, il courut <placeName
+                  ref="#rue_de_la_Goutte-dor">rue de la Goutte-d’Or</placeName> et monta carrément
+               emprunter dix francs à <persName ref="#Monsieur_Lorilleux">Lorilleux</persName>. Par
+               exemple, ça lui écorchait le gosier, car il s’attendait à la grimace de son
+               beau-frère. Celui-ci grogna, ricana d’un air de mauvaise bête, et finalement prêta
+               les deux pièces de cent sous. Mais <persName ref="#Coupeau">Coupeau</persName>
+               entendit sa sœur qui disait entre ses dents que <said>« ça commençait bien.
+               »</said></p>
+            <p>Le mariage à la mairie était pour dix heures et demie. Il faisait très beau, un
+               soleil du tonnerre, rôtissant les rues. Pour ne pas être regardés, les mariés, la
+               maman et les quatre témoins se séparèrent en deux bandes. En avant, <persName
+                  ref="#Gervaise_Macquart">Gervaise</persName> marchait au bras de <persName
+                  ref="#Monsieur_Lorilleux">Lorilleux</persName>, tandis que <persName
+                  ref="#Madinier">M. Madinier</persName> conduisait <persName ref="#maman_Coupeau"
+                  >maman Coupeau</persName> ; puis, à vingt pas, sur l’autre trottoir, venaient
+                  <persName ref="#Coupeau">Coupeau</persName>, <persName ref="#Monsieur_Boche"
+                  >Boche</persName> et <persName ref="#Bibi-la-Grillade"
+               >Bibi-la-Grillade</persName>. Ces trois-là étaient en redingote noire, le dos rond,
+               les bras ballants ; <persName ref="#Monsieur_Boche">Boche</persName> avait un
+               pantalon jaune ; <persName ref="#Bibi-la-Grillade">Bibi-la-Grillade</persName>,
+               boutonné jusqu’au cou, sans gilet, laissait passer seulement un coin de cravate roulé
+               en corde. Seul, <persName ref="#Madinier">M. Madinier</persName> portait un habit, un
+               grand habit à queue carrée ; et les passants s’arrêtaient pour voir ce monsieur
+               promenant la grosse <persName ref="#maman_Coupeau">mère Coupeau</persName>, en châle
+               vert, en bonnet noir, avec des rubans rouges. <persName ref="#Gervaise_Macquart"
+                  >Gervaise</persName>, très douce, gaie, dans sa robe d’un bleu dur, les épaules
+               serrées sous son étroit mantelet, écoutait complaisamment les ricanements de
+                  <persName ref="#Monsieur_Lorilleux">Lorilleux</persName>, perdu au fond d’un
+               immense paletot sac, malgré la chaleur ; puis, de temps à autre, au coude des rues,
+               elle tournait un peu la tête, jetait un fin sourire à <persName ref="#Coupeau"
+                  >Coupeau</persName>, que ses vêtements neufs, luisant au soleil, gênaient.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

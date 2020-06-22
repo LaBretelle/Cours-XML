@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title resp="Bibl_Pat_Valenciennes">Cantilène de Sainte Eulalie</title>
+            <title resp="BNF_Data">Séquence de Sainte Eulalie</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque municipale de Valenciennes</authority>
+            <distributor>Médiathèque Simone Veil de Valenciennes</distributor>
+            <date>825-875</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Valenciennes</settlement>
+                  <institution>Médiathèque Simone Veil</institution>
+                  <idno>Ms.150 (143)</idno>
+                  <msName>In hoc corpore continentur libri octo Gregorii Nazanzeni episcopi, id est
+                     Apologeticus lib. I ; de epifanis sive de natali Domini lib. I ; de luminibus
+                     vel secundis epifanis lib. I ; de Pentecosten vel Spiritu sancto lib. I ; in
+                     semetipso de agro regressus, lib. I ; de Hieremia dicta praesente imperatore,
+                     apud quem intercedit pro quodam periclitante, lib. I ; de reconciliatione
+                     monachi, lib. I ; de grandinis vastatione, cum pater episcopus reticeret, lib.
+                     I.</msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Valenciennes</settlement>
+                  <repository>Bibliothèque Municipale de Valenciennes</repository>
+                  <idno>Ms.150 (143)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <div>
+            <lg n="1">
+               <l n="1"> Eulalie était une bonne jeune fille ; </l>
+               <l n="2">Son corps était beau, son âme plus belle encore.</l>
+            </lg>
+            <lb/>
+            <lg n="2">
+               <l n="3">Les ennemis de Dieu voulurent la vaincre,</l>
+               <l n="4">Et lui faire servir le Diable.</l>
+            </lg>
+            <lb/>
+            <lg n="3">
+               <l n="5"><choice>
+                     <orig/>
+                     <reg>Mais</reg>
+                  </choice> elle n'écoutait pas les mauvais conseillers</l>
+               <l n="6"><choice>
+                     <orig/>
+                     <reg>Qui voulaient</reg>
+                  </choice> qu'elle renie Dieu qui demeure au ciel.</l>
+            </lg>
+            <lb/>
+            <lg n="4">
+               <l n="7">Ni pour de l'or, ni pour de l'argent ou des parures,</l>
+               <l n="8">Ni pour des menaces, des caresses ou des prières,</l>
+            </lg>
+            <lb/>
+            <lg n="5">
+               <l n="9">Nulle chose ne pouvait<choice>
+                     <orig>plier</orig>
+                     <reg>forcer</reg>
+                  </choice></l>
+               <l n="10">La fille à toujours n'aimer le service de Dieu.</l>
+            </lg>
+            <lb/>
+            <lg n="6">
+               <l n="11">Et pour cela, elle fut présentée à Maximien,</l>
+               <l n="12">Qui était en ces jours-là le roi des païens,</l>
+            </lg>
+            <lb/>
+            <lg n="7">
+               <l n="13">Il l'exhorte, sans qu'elle y prête attention</l>
+               <l n="14"><choice>
+                     <orig/>
+                     <reg>À ce</reg>
+                  </choice>Qu'elle fuie le nom chrétien.</l>
+            </lg>
+            <lb/>
+            <lg n="8">
+               <l n="15">Elle en rassemble ses forces.</l>
+               <l n="16">Mieux <choice>
+                     <sic/>
+                     <corr>valût</corr>
+                  </choice> qu'elle soutînt les tortures,</l>
+            </lg>
+            <lb/>
+            <lg n="9">
+               <l n="17">Qu'elle ne perdît sa virginité.</l>
+               <l n="18">Pour cela elle mourrait en grand honneur.</l>
+            </lg>
+            <lb/>
+            <lg n="10">
+               <l n="19">Ils la jetèrent dans le feu pour qu'elle y brûle.</l>
+               <l n="20">Elle était sans pêché et pour cela ne brûla pas.</l>
+            </lg>
+            <lb/>
+            <lg n="11">
+               <l n="21">À cela, le roi païen ne voulut croire,</l>
+               <l n="22">Avec une épée, il ordonna de lui trancher la tête.</l>
+            </lg>
+            <lb/>
+            <lg n="12">
+               <l n="23">La demoiselle ne contredit pas cela,</l>
+               <l n="24">Et accepta de quitter ce monde, si le Christ l'ordonnait.</l>
+            </lg>
+            <lb/>
+            <lg n="13">
+               <l n="25">Sous la forme d'une colombe, elle monta au ciel.</l>
+               <l n="26">Tous prions que pour nous <choice>
+                     <sic/>
+                     <corr>elle</corr>
+                  </choice>daigne prier,</l>
+            </lg>
+            <lb/>
+            <lg n="14">
+               <l n="27">Que le Christ nous ait en sa pitié,</l>
+               <l n="28">Après la mort, et qu'à lui il nous laisse venir</l>
+            </lg>
+            <lb/>
+            <lg n="15">
+               <l n="29">Par sa clémence.</l>
+            </lg>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

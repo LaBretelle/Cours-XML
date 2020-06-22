@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+    <body>
+        <head>Mon rêve familier</head>
+        <author>Paul Verlaine</author>
+
+        <lg type="quatrain" n="1">
+            <l rhyme="m" type="alexandrin">Je fais souvent ce rêve<caesura/> étrange et
+                pénétrant</l>
+            <l rhyme="f" type="alexandrin">D'une femme inconnue, et<caesura/> que j'aime, et qui
+                m'aime</l>
+            <l rhyme="f" type="alexandrin">Et qui n'est, chaque fois<caesura/>, ni tout à fait la
+                même</l>
+            <l rhyme="m" type="alexandrin">Ni tout à fait une autre<caesura/>, et m'aime et me
+                comprend.</l>
+        </lg>
+        <lg type="quatrain" n="2">
+            <l rhyme="m" type="alexandrin">Car elle me comprend<caesura/>, et mon coeur, transparent </l>
+            <l rhyme="f" type="alexandrin"> Pour elle seule, hélas<caesura/> ! cesse d'être un
+                problème </l>
+            <l rhyme="f" type="alexandrin"> Pour elle seule, et les moi<caesura/>teurs de mon front
+                blême, </l>
+            <l rhyme="m" type="décasyllabe">Elle seule les sait<caesura/> rafraîchir, en
+                pleurant.</l>
+        </lg>
+        <lg type="cisain" n="1">
+            <l rhyme="f" type="alexandrin">Est-elle brune, blonde<caesura/> ou rousse ? - Je
+                l'ignore. </l>
+            <l rhyme="f" type="alexandrin">Son nom ? Je me souviens<caesura/> qu'il est doux et
+                sonore </l>
+            <l rhyme="m" type="alexandrin">Comme ceux des aimés que<caesura/> la Vie exila.</l>
+            <l rhyme="f" type="alexandrin">Son regard est pareil<caesura/> au regard des
+                statues,</l>
+            <l rhyme="m" type="alexandrin">Et, pour sa voix, lointaine<caesura/>, et calme, et
+                grave, elle a </l>
+            <l rhyme="f" type="décasyllabe">L'inflexion des voix chères<caesura/> qui se sont
+                tues.</l>
+        </lg>
+    </body>
+</text>

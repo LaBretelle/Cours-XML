@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+    <head>LE MISANTHROPE.</head>
+    <div>
+        <head>ACTE PREMIER.</head>
+        <div>
+            <head>SCÈNE 1.</head>
+            <castList><castItem>PHILINTE</castItem>, <castItem>ALCESTE</castItem></castList>
+            <sp>
+                <speaker>PHILINTE.</speaker>
+                <l>Qu'est-ce donc? qu'avez-vous ?</l>
+            </sp>
+            <sp><speaker>ALCESTE</speaker>, <stage>assis</stage>. <l>
+                    Laissez-moi, je vous prie.</l></sp>
+            <sp><speaker>PHILINTE</speaker>. <l>Mais encor, dites-moi, quelle
+                    bizarrerie....</l></sp>
+            <sp><speaker>ALCESTE</speaker>.<l> Laissez-moi là, vous dis-je, et
+                    courez vous cacher.</l></sp>
+            <sp><speaker>PHILINTE</speaker>. <l>Mais on entend les gens au moins
+                    sans se fâcher.</l></sp>
+            <sp><speaker>ALCESTE</speaker>. <l>Moi, je veux me fâcher, et ne veux
+                    point entendre.</l></sp>
+            <sp><speaker>PHILINTE</speaker>
+                <l>Dans vos brusques chagrins je ne puis vous comprendre, Et quoique amis enfin,
+                    je suis tout des premiers...</l>.</sp>
+            <sp><speaker>ALCESTE</speaker>, <stage>se levant
+                    brusquement</stage>. <l>Moi, votre ami? Rayez cela de vos
+                    papiers.</l></sp>
+        </div>
+    </div>
+</text>

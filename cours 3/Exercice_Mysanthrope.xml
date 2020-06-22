@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<piece>
+    <titre>LE MISANTHROPE.</titre>
+    <acte>
+        <num_acte>ACTE PREMIER.</num_acte>
+        <scene>
+            <num_scene>SCÈNE 1.</num_scene>
+            <dramatis_personae>PHILINTE, ALCESTE</dramatis_personae>
+            <tour_de_parole>
+                <locuteur>PHILINTE.</locuteur>
+                <vers>Qu'est-ce donc? qu'avez-vous ?</vers>
+            </tour_de_parole>
+            <tour_de_parole><locuteur>ALCESTE</locuteur>, <didascalies>assis</didascalies>. <vers>
+                    Laissez-moi, je vous prie.</vers></tour_de_parole>
+            <tour_de_parole><locuteur>PHILINTE</locuteur>. <vers>Mais encor, dites-moi, quelle
+                    bizarrerie....</vers></tour_de_parole>
+            <tour_de_parole><locuteur>ALCESTE</locuteur>.<vers> Laissez-moi là, vous dis-je, et
+                    courez vous cacher.</vers></tour_de_parole>
+            <tour_de_parole><locuteur>PHILINTE</locuteur>. <vers>Mais on entend les gens au moins
+                    sans se fâcher.</vers></tour_de_parole>
+            <tour_de_parole><locuteur>ALCESTE</locuteur>. <vers>Moi, je veux me fâcher, et ne veux
+                    point entendre.</vers></tour_de_parole>
+            <tour_de_parole><locuteur>PHILINTE</locuteur>
+                <vers>Dans vos brusques chagrins je ne puis vous comprendre, Et quoique amis enfin,
+                    je suis tout des premiers...</vers>.</tour_de_parole>
+            <tour_de_parole><locuteur>ALCESTE</locuteur>, <didascalies>se levant
+                    brusquement</didascalies>. <vers>Moi, votre ami? Rayez cela de vos
+                    papiers.</vers></tour_de_parole>
+        </scene>
+    </acte>
+</piece>

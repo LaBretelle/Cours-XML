@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT poeme (titre?, auteur?,texte?)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT texte (quatrain*, tercet*, vers*, h*)>
+<!ELEMENT quatrain (vers*, h*)>
+<!ELEMENT tercet (vers*, h*)>
+<!ELEMENT vers (#PCDATA | h)*>
+<!ELEMENT h EMPTY>
+<!ATTLIST quatrain n CDATA #REQUIRED>
+<!ATTLIST tercet n CDATA #REQUIRED>
+<!ATTLIST vers rime CDATA #REQUIRED>
+<!ATTLIST vers type CDATA #REQUIRED>

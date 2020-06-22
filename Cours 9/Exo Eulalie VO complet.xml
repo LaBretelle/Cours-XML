@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY io '<choice><abbr>&#333;</abbr><expan>io </expan></choice>'>
+<!ENTITY non '<choice><abbr>&#58844;</abbr><expan>non </expan></choice>'>
+]>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title resp="Bibl_Pat_Valenciennes">Cantilène de Sainte Eulalie</title>
+            <title resp="BNF_Data">Séquence de Sainte Eulalie</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Bibliothèque municipale de Valenciennes</authority>
+            <distributor>Médiathèque Simone Veil de Valenciennes</distributor>
+            <date>825-875</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="A">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Valenciennes</settlement>
+                  <institution>Médiathèque Simone Veil</institution>
+                  <idno>Ms.150</idno>
+                  <altIdentifier>
+                     <idno>Ms.143</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head><title>In hoc corpore continentur libri octo Gregorii Nazanzeni episcopi, id
+                     est Apologeticus lib. I ; de epifanis sive de natali Domini lib. I ; de
+                     luminibus vel secundis epifanis lib. I ; de Pentecosten vel Spiritu sancto lib.
+                     I ; in semetipso de agro regressus, lib. I ; de Hieremia dicta praesente
+                     imperatore, apud quem intercedit pro quodam periclitante, lib. I ; de
+                     reconciliatione monachi, lib. I ; de grandinis vastatione, cum pater episcopus
+                     reticeret, lib. I.</title><origDate>IXe siècle</origDate><note> Contient : «
+                     Gregorii episcopi de grandinis vastatione, cum pater episcopus reticeret,
+                     explicit liber octavus. Lege feliciter » ; Poésie latine, dont Mangeart a
+                     publié le texte (p. 124) ; Prose latine en l'honneur de Ste Eulalie ; Cantilène
+                     romane de Ste Eulalie : « Buona pulcella... » ; « Rithmus teutonicus de piae
+                     memoriae Hludvico rege, filio Hludvici aeque regis » ; Poème latin de 15
+                     distiques. Premiers et derniers vers</note></head>
+               <msContents>
+                  <msItemStruct>
+                     <locus from="141v" to="141v">Folio 141 verso</locus>
+                     <title>Cantilène
+                        romane de Ste Eulalie</title>
+                     <incipit>Buona pulcella</incipit>
+                     <explicit>Par souue clementia</explicit>
+                     <textLang mainLang="fra" otherLangs="lat">Texte en ancien français</textLang>
+                  </msItemStruct>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="seance07/SainteEulalie.jpeg" width="994px" height="1566px"/>
+      <surface>
+         <zone xml:id="l1" points=" 177,144 170,78 223,78 225,111 527,109 528,148 "/>
+         <zone xml:id="l2" points=" 532,108 919,118 921,145 533,145 "/>
+         <zone xml:id="l3" points=" 170,161 553,160 555,193 169,198 "/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <listBibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Valenciennes</settlement>
+                  <repository>Bibliothèque Municipale de Valenciennes</repository>
+                  <idno>Ms.150 (143)</idno>
+               </msIdentifier>
+            </msDesc>
+         </listBibl>
+         <div>
+            <lg n="1">
+               <l n="1" facs="#l1">Buona pulcella fut Eulalia. </l>
+               <l n="2" facs="#l2">Bel auret corps bellezour anima.</l>
+            </lg>
+            <lb/>
+            <lg n="2">
+               <l n="3" facs="#l3">Voldrent la ueintre li d&io; inimi.</l>
+               <l n="4">Voldrent la faire diaule servir</l>
+            </lg>
+            <lb/>
+            <lg n="3">
+               <l n="5">Elle nont eskoltet les mals conselliers.</l>
+               <l n="6">Quelle d&io; raneiet chi maent sus en ciel.</l>
+            </lg>
+            <lb/>
+            <lg n="4">
+               <l n="7">Ne por or ned argent ne paramenz.</l>
+               <l n="8">Por manatce regiel ne preiement,</l>
+            </lg>
+            <lb/>
+            <lg n="5">
+               <l n="9">Niule cose non la pouret om<choice>
+                     <abbr>&#42841;</abbr>
+                     <expan>que </expan>
+                  </choice> pleier.</l>
+               <l n="10">La polle sempre <choice>
+                     <abbr>&#58844;</abbr>
+                     <expan>non </expan>
+                  </choice> amast lo d&io; menestier.</l>
+            </lg>
+            <lb/>
+            <lg n="6">
+               <l n="11">E <choice>
+                     <sic>poro</sic>
+                     <corr>por o</corr>
+                  </choice> fut <choice>
+                     <abbr>&#58981;</abbr>
+                     <expan> pre</expan>
+                  </choice>sentede maximiien.</l>
+               <l n="12">Chi rex eret a cels dis soure pagiens.</l>
+            </lg>
+            <lb/>
+            <lg n="7">
+               <l n="13"><choice>
+                     <sic>I lli</sic>
+                     <corr>Il li</corr>
+                  </choice> enortet dont lei non<choice>
+                     <abbr>&#42841;</abbr>
+                     <expan>que </expan>
+                  </choice> chielt.</l>
+               <l n="14">Qued elle fuiet lo nom x<choice>
+                     <abbr>&#58981;</abbr>
+                     <expan>rist</expan>
+                  </choice>iien.</l>
+            </lg>
+            <lb/>
+            <lg n="8">
+               <l n="15">Ellent adunet lo suon element</l>
+               <l n="16">Melz sostendreiet les empedementz.</l>
+            </lg>
+            <lb/>
+            <lg n="9">
+               <l n="17">Quelle <choice>
+                     <abbr>&#42833;</abbr>
+                     <expan>per</expan>
+                  </choice>desse sa uirginitet.</l>
+               <l n="18"><choice>
+                     <sic>Poros</sic>
+                     <corr>Por os</corr>
+                  </choice> suret morte a grand honestet.</l>
+            </lg>
+            <lb/>
+            <lg n="10">
+               <l n="19">Enz enl fou la getterent com arde tost.</l>
+               <l n="20">Elle colpes &non; auret <choice>
+                     <sic>Poro</sic>
+                     <corr>Por o</corr>
+                  </choice> nos coist.</l>
+            </lg>
+            <lb/>
+            <lg n="11">
+               <l n="21"><choice>
+                     <sic>Aczo</sic>
+                     <corr>A czo</corr>
+                  </choice> nos uoldret concreidre li rex pagiens.</l>
+               <l n="22">Ad une spede li roueret tolir lo chief.</l>
+            </lg>
+            <lb/>
+            <lg n="12">
+               <l n="23">La domnizelle celle kose &non; contredist.</l>
+               <l n="24">Volt lo seule lazsier si ruouet krist.</l>
+            </lg>
+            <lb/>
+            <lg n="13">
+               <l n="25">In figure de colomb uolat a ciel.</l>
+               <l n="26">Tuit oram que <choice>
+                     <sic>Pornos</sic>
+                     <corr>Por nos</corr>
+                  </choice> degnet preier.</l>
+            </lg>
+            <lb/>
+            <lg n="14">
+               <l n="27">Qued auuisset de nos Xx<choice>
+                     <abbr>&#58981;</abbr>
+                     <expan>rist</expan>
+                  </choice>s mercit</l>
+               <l n="28">Post la mort &amp; <choice>
+                     <sic>alui</sic>
+                     <corr>a lui</corr>
+                  </choice> nos laist uenir.</l>
+            </lg>
+            <lb/>
+            <lg n="15">
+               <l n="29">Par souue clementia.</l>
+            </lg>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

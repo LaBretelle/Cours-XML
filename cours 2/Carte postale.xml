@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<headers>
+    <typedoc>Carte postale</typedoc>
+    <auteur><nom>Marcel</nom><lieu>Les Sables d'Olonne,Vendée, France</lieu></auteur>
+    
+    <destinataire><nom>Lucienne Veyssade</nom><lieu>Alfortville, Val de Marne, France</lieu></destinataire>
+</headers>
+
+<carte sens="recto">Image représentant le port des Sables d'Olonne, Vendée, France</carte>
+<carte sens="verso">
+    <mpost>
+        <carte></carte>
+        <officiel><cachet><officiel>Oblitération daté de 1967 en Vendée</officiel><</cachet></timbre couleur="bleu" lieu="Mont_de_Marsan"> </officiel>
+    </mpost>
+    <corpstexte></corpstexte>
+    <adresse></adresse>
+</carte>

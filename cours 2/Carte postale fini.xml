@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carte_postale[
+<!ELEMENT carte_postale (headers, carte*)>
+<!ELEMENT headers (typedoc, auteur, destinataire)>
+<!ELEMENT typedoc (#PCDATA)>
+<!ELEMENT auteur (nom, lieu)>
+<!ELEMENT destinataire (nom, lieu)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT lieu (#PCDATA)>
+<!ELEMENT carte (#PCDATA | marqueposte | fondcarte | corpstexte | adresse)*>
+<!ELEMENT marqueposte (timbre, cachet, tampon)>
+<!ELEMENT timbre (#PCDATA)>
+<!ELEMENT cachet (#PCDATA)>
+<!ELEMENT tampon (#PCDATA)>
+<!ELEMENT fondcarte (infocarte, mention_éditeur)>
+<!ELEMENT infocarte (#PCDATA)>
+<!ELEMENT mention_éditeur (#PCDATA)>
+<!ELEMENT corpstexte (p*, formulepolitesse, signature)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT formulepolitesse (#PCDATA)>
+<!ELEMENT signature (#PCDATA)>
+<!ELEMENT adresse (nom, rue, ville, departement)>
+<!ELEMENT rue (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT departement (#PCDATA)>
+<!ATTLIST nom norme CDATA #REQUIRED>
+<!ATTLIST lieu norme CDATA #REQUIRED>
+<!ATTLIST carte sens CDATA #REQUIRED>
+<!ATTLIST timbre position CDATA #REQUIRED>
+<!ATTLIST timbre couleur CDATA #REQUIRED>
+<!ATTLIST timbre lieu CDATA #REQUIRED>
+<!ATTLIST cachet position CDATA #REQUIRED>
+<!ATTLIST cachet date CDATA #REQUIRED>
+<!ATTLIST tampon position CDATA #REQUIRED>
+<!ATTLIST infocarte position CDATA #REQUIRED>
+<!ATTLIST mention_éditeur position CDATA #REQUIRED>
+<!ATTLIST p n CDATA #REQUIRED>
+<!ATTLIST adresse cible CDATA #REQUIRED>
+]>
+<carte_postale>
+    <headers>
+        <typedoc>Carte postale</typedoc>
+        <auteur>
+            <nom norme="Marcelle ???">Marcelle</nom>
+            <lieu norme="Les Sables d'Olonne, 85340">Les Sables d'Olonne,Vendée, France</lieu>
+        </auteur>
+
+        <destinataire>
+            <nom norme="VEYSSADE, Lucienne">Lucienne Veyssade</nom>
+            <lieu norme="Alfortville, 94140">Alfortville, Val de Marne, France</lieu>
+        </destinataire>
+    </headers>
+
+    <carte sens="recto">Image représentant le port des Sables d'Olonne, Vendée, France</carte>
+    <carte sens="verso">
+        <marqueposte>
+            <timbre position="haut droite" couleur="bleu" lieu="Mont_de_Marsan">Timbre bleu aux
+                armes de Mont de Marsan</timbre>
+            <cachet position="haut droite" date="1967">Oblitération daté de 1967 en Vendée</cachet>
+            <tampon position="haut centre">SABLE D'OLONNE, CÔTE de LUMIÈRE</tampon>
+        </marqueposte>
+        <fondcarte>
+            <infocarte position="haut gauche">78 - LES SABLES D'OLONNE (Vendée) Le Port - Couleurs
+                naturelles</infocarte>
+            <mention_éditeur position="centre">ARTAUD Frères - Editeurs Avenue de la Close -
+                Nantes</mention_éditeur>
+        </fondcarte>
+        <corpstexte>
+            <p n="1">Bientot sur le chemin du retour. Avons eu du beau temps tout le mois de
+                juillet. Vous souhaite à tous la même chose.</p>
+            <p n="2">J'espère que vous êtes tous en bonne santé. A chacun son tour, le beau temps et
+                le repos</p>
+            <formulepolitesse>Avec d'affectueuses pensées et bons baisers à tous.</formulepolitesse>
+            <signature>Marcelle</signature>
+        </corpstexte>
+        <adresse cible="destinataire">
+            <nom norme="VEYSSADE Lucienne">Mme Veyssade Lucienne</nom>
+            <rue>31, rue du President Kennedy</rue>
+            <ville>ALFORTVILLE</ville>
+            <departement>Val de Marne</departement>
+        </adresse>
+    </carte>
+</carte_postale>
